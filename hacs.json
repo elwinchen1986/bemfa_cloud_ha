@@ -1,5 +1,8 @@
 {
   "name": "Bemfa Cloud",
+  "domains": [
+    "bemfa_cloud"
+  ],
   "render_readme": true,
   "country": "CN",
   "homeassistant": "2024.6.0"
