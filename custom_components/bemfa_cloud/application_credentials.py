@@ -17,7 +17,7 @@ from .const import (
 async def async_get_default_credentials(hass: HomeAssistant) -> ClientCredential:
     """Return default credentials for Bemfa Cloud OAuth."""
 
-    return ClientCredential(OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET)
+    return ClientCredential(OAUTH_CLIENT_ID, "bemfa")
 
 
 async def async_get_auth_implementation(
